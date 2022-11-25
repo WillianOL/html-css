@@ -1,0 +1,17 @@
+#content{
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+}
+
+.item{
+    width: 250px;
+    height: 100px;
+    margin: 5px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.445);
+    background-color: white;
+}

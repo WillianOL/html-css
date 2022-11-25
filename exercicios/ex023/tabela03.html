@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table{
+            margin: auto;
+            position: relative;
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: rgb(11, 65, 62) ;
+        }
+
+        caption{
+            border: solid black 1px;
+            background-color: rgb(11, 65, 62);
+            padding: 10px;
+            font-weight: bolder;
+            color: white;
+        }
+
+        td, th{
+            padding: 10px;
+            border: 1px solid black;
+            border-top: 0px;
+        }
+
+        td{
+            color: white;
+            text-align: left;
+        }
+
+        td.pessoas{
+            text-align: right;
+        }
+
+        .numero{
+            text-align: center;
+            color: white;
+        }
+
+        thead, tfoot{
+            background-color: rgb(11, 65, 62);
+            color: white;
+        }
+
+        #cpopu{
+            background-color: rgb(11, 36, 34);
+        }
+
+        #cposiction{
+            background-color: rgb(44, 44, 243);
+        }
+
+        #cestado{
+            background-color: rgb(7, 114, 109);
+        }
+    </style>
+</head>
+<body>
+    <h1>Agrupamento de Tabelas</h1>
+    
+    <table>
+        <colgroup>
+        <col id="cposiction">
+        <col id="cestado">
+        <col id="cpopu">
+        </colgroup>
+        <caption> População por Estado</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="numero">1</td>
+                <td>São Paulo</td>
+                <td class="pessoas">46 649 132</td>
+            </tr>
+            <tr>
+                <td class="numero">2</td>
+                <td>Minas Gerais</td>
+                <td class="pessoas">21 411 923</td>
+            </tr>
+            <tr>
+                <td class="numero">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="pessoas">17 463 349</td>
+            </tr>
+            <tr>
+                <td class="numero">4</td>
+                <td>Bahia</td>
+                <td class="pessoas">14 985 284</td>
+            </tr>
+            <tr>
+                <td class="numero">5</td>
+                <td>Paraná</td>
+                <td class="pessoas">11 597 484</td>
+            </tr>
+            <tr>
+                <td class="numero">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="pessoas">11 466 630</td>
+            </tr>
+            <tr>
+                <td class="numero">7</td>
+                <td>Pernambuco</td>
+                <td class="pessoas">9 674 793</td>
+            </tr>
+            <tr>
+                <td class="numero">8</td>
+                <td>Ceará</td>
+                <td class="pessoas">9 240 580</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total de pessoas</th>
+                <td class="pessoas"><strong>142.489.175</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

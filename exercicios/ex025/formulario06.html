@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex de Formularios</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+
+            margin: 15px 5px 15px 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Formularios</h1>
+    <form action="" method="post">
+        <div>
+            <label for="icor">Cor: </label> <!--Vai criar uma caixa onde o usuário pode escolher e mdificar a cor.-->
+            <input type="color" name="cor" id="icor">
+        </div>
+
+        <div>
+            <label for="isat">Satisfação</label> <!--Vai criar uma mine barra de rolagem com valores, onde o usuário pode selecionar esses valores por meio da barra. (O valor padrão é de 0 a 100, ele pode ser modificado através do min e max.) -->
+            <input type="range" name="sat" id="isat" min="1" max="5">
+        </div>
+
+        <div>
+            <label for="iarq">Arquivo</label>
+            <input type="file" name="arq" id="iarq">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>

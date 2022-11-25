@@ -1,0 +1,32 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to left, #8AA6A3, #4C5958);
+}
+
+.box-model{
+    box-shadow: 7px 7px 10px 7px #617573bb;
+    margin: auto;
+    background-color: #BFBFBF;
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    border-radius: 9px;
+    border: 3px solid #10403B;
+
+}
+
+.box-model h1{
+    color: #185c55;
+    text-align: center;
+    margin: 10px auto 30px auto;
+    background-color: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 9px;
+    box-shadow: 7px 7px 10px 7px #617573bb;
+}
+
+.box-model p{
+    color: #127369;
+}

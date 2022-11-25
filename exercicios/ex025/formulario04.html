@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex de Formulario</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="" method="post">
+        <fieldset> <!--O Fieldeset serve para colocarmos o que está dentro dele em uma forma de caixa para separar conteúdos. (Como dados pessoais, escolares, de banco e etc).-->
+            <legend>Dados pessoais</legend><!--É o titulo para o fieldset.-->
+            <div>
+                <label for="iemail">Email: </label>
+                <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="Email de login">
+            </div>
+            <div>
+                <label for="icel">Telefone: </label>
+                <input type="tel" name="cel" id="icel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required placeholder="(xx) xxxxx-xxxx"> <!--O "pattern" é uma forma de expressão regular(RegEx). *APRENDER MAIS A FRENTE!-->
+            </div>
+        </fieldset>
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </div>
+    </form>
+</body>
+</html>

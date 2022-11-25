@@ -1,0 +1,8 @@
+/*Configurações de modo paisagem*/
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}

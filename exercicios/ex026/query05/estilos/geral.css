@@ -1,0 +1,28 @@
+
+@media screen and (min-width: 768px) {
+    #icon-menu{
+        display: none;
+    }
+
+    menu{
+        display: block;
+    }
+
+    ul{
+        display: flex;
+    }
+
+    li{
+        margin: 5px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    li > a{
+        padding: 0px;
+    }
+
+    main{
+        width: 740px;
+    }
+}

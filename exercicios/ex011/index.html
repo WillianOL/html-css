@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinânmicas</h1>
+    <h2>Imagens adapitaveis</h2>
+    <p>As imagens podem se adapitar de acordo com a resolução ou tamanho de tela atual. Você pode testar isso diminuindo e aumentando o tamanho do navegador. </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img-m.png" type="image/png">
+        <img src="imagens/img-g.png" alt="imagem grande">
+    </picture>
+    <h2>Áudio no site</h2>
+    <p>Reproduzindo áudio em HTML5.</p>
+    <dl>
+        <dt>Felipi Ret - Isso que é vida.</dt>
+        <dd>
+            <audio src="midia/filiperet.mp3" controls autoplay></audio>
+        </dd>
+    </dl>
+</body>
+</html>

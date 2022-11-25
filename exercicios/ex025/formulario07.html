@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex de form</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input{
+
+            margin: 15px 5px 15px 10px;
+            text-align: center;
+        }
+
+        select{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formularios</h1>
+    <form action="" method="post">
+        <label for="ilist">Estado: </label>
+        <select name="list" id="ilist"> <!--O select serve para criarmos listas de itens com seleção, ou seja, os itens ja existem e o usuário pode escolher.-->
+            <option value="" selected><strong>--- ESCOLHA ---</strong></option>
+            <optgroup label="Esportes Avançados"> <!--Os optgroups são formas de separar os itens da lista, agrupando eles em grupos com seus titúlos.-->
+                <option value="FUT">Futebol</option>
+                <option value="BAS">Basquete</option>
+                <option value="CORR">Corrida</option>
+                <option value="NAT">Natação</option>
+            </optgroup>
+
+            <optgroup label="Esportes Leves">
+                <option value="CRS">Corrida de Saco</option>
+                <option value="PGP">Pega-pega</option>
+                <option value="PES">Pique-esconde</option>
+                <option value="CMI">Disputa de comida</option>
+            </optgroup>
+        </select>
+
+        <div>
+            <label for="itxt">Profissão</label>
+            <input type="text" name="txt" id="itxt" list="lista"> <!--O 'list' serve para associarmos o input com o datalist.-->
+            <datalist id="lista"> <!--Para usarmos o datalist, primeiro devemos lincar ela com um input de texto. Como feito acima.-->
+                <option>Policial</option>
+                <option>Professor</option>
+                <option>Desenvlvedor</option>
+                <option>Contador</option>
+            </datalist>
+        </div>
+
+        <div>
+            <textarea name="areatxt" id="iareatxt" cols="30" rows="10" placeholder="Sua mensagem aqui"></textarea> <!--Vai criar uma aréa de texto onde o usuário pode digitar qualquer coisa. (O tamando dela pode ser modificado pelo usuário.)-->
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>

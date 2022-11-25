@@ -1,0 +1,29 @@
+
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+div.caixa{
+    display: inline-block;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 9px;
+    border: solid 2px black;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.425);
+}
+
+#c1{
+    background-color: lightslategray;
+}
+
+#c2{
+    background-image: linear-gradient(to bottom, rgb(251, 255, 0), rgb(255, 0, 0));
+}
+
+#c3{
+    background-image: url(imagens/pattern003.png);
+}

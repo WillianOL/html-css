@@ -1,0 +1,25 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    padding: 20px;
+    display: inline-block;
+    border: 2px solid black;
+    height: 170px;
+    width: 170px;
+    text-align: center;
+    background-color: lightsteelblue;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: crimson;
+
+}
+div:hover{
+    background-color: yellowgreen;
+}

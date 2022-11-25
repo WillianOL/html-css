@@ -1,0 +1,136 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cinza{
+    background-color: gray;
+}
+
+.verde{
+    background-color: rgb(30, 172, 30)
+}
+
+.amarela{
+    background-color: rgb(216, 216, 0);
+}
+
+.a1:hover{
+    background-color: green;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(94, 93, 93);
+}
+
+.a2:hover{
+    background-color: yellow;
+    color: black;
+    box-shadow: 5px 5px 10px rgb(94, 93, 93);
+}
+
+.a2{
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+.a1{
+    margin: 10px auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.pag-principal h1{
+    border-radius: 9px;
+    padding: 5px;
+    margin: 20px 50px;
+    width: 400px;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.pag-principal{
+    box-shadow: 8px 8px 10px rgb(94, 93, 93);
+    border-radius: 9px;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+    background-color: rgb(165, 165, 165);
+}
+
+.pag-verde h1{
+    text-align: center;
+    border-radius: 9px;
+    background-color: white;
+    width: 400px;
+    margin: 20px 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pag-verde{
+    box-shadow: 8px 8px 10px rgba(37, 112, 37, 0.89);
+    border-radius: 9px;
+    padding: 10px;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(67, 201, 67);
+}
+
+.voltar01{
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.voltar01:hover{
+    background-color: gray;
+    box-shadow: 5px 5px 10px rgba(37, 112, 37, 0.89);
+}
+
+.pag-amarela{
+    box-shadow: 8px 8px 10px rgb(184, 184, 1);
+    border-radius: 9px;
+    padding: 10px;
+    margin: auto;
+    height: 300px;
+    width: 500px;
+    background-color: rgb(255, 255, 0);
+}
+
+.pag-amarela h1{
+    background-color: white;
+    border-radius: 9px;
+    text-align: center;
+    width: 400px;
+    margin: 20px 50px;
+}
+
+.voltar02{
+    margin: auto;
+    border: 2px solid black;
+    text-align: center;
+    width: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.voltar02:hover{
+    background-color: gray;
+    box-shadow: 5px 5px 10px rgba(184, 184, 1);
+}
+
+div.botton1 .botton2{
+    display: inline-block;
+}

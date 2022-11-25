@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'titulo';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype'); 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #BFBFBF;
+    margin: 20px;
+}
+
+header h1{
+    font-size: 3em;
+    font-family: 'titulo';
+    text-align: center;
+    color: #0B1659;
+    margin: 0px;
+}
+
+header{
+    margin: 5px auto 10px auto;
+    width: 760px;
+    border-radius: 9px;
+    padding: 9px 8px;
+    background-color: #ffffff;
+
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav > a{
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.37);
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    width: 592px;
+    padding: 6px;
+    color: white;
+    background-color: rgb(88, 87, 87);
+}
+
+main{
+    border-radius: 9px 9px 0px 0px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    text-align: justify;
+    width: 800px;
+}
+
+section{
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 12px 0px;
+    padding: 10px;
+}
+
+section h2{
+    text-align: center;
+    background-color: #0B1659;
+    color: white;
+    width: 200px;
+    padding: 5px;
+    border-radius: 9px;
+}
+
+section:hover{
+    box-shadow: 7px 6px 7px  rgba(100, 99, 99, 0.767);;
+    animation: reverse;
+}
+
+article{
+    text-align: center;
+    margin: 20px;
+    background-color: #0B1659;
+    color: white;
+    padding: 10px;
+    border-radius: 17px 0px;
+}
+
+article > p{
+    margin: 0px;
+}
+
+aside{
+    margin: 9px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 812px;
+    margin: 10px auto 10px auto;
+}
+
+footer > p{
+    margin: 0px;
+}

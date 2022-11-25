@@ -1,0 +1,7 @@
+*{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(185deg, #22E6A0, #4CA888, #0E5C40 70%);
+    background-attachment: fixed;
+}
